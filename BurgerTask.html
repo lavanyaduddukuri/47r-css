@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            font-family: "Times New Roman", Georgia, Serif;
+            background-color: white;
+            border-bottom: 2px solid rgb(241, 240, 240);
+            top:0;
+            width:100%;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            gap:1150px;
+            padding:5px;
+            font-size: 17px;
+            z-index: 1;
+        }
+        .sub-nav {
+            display: flex;
+            gap: 30px;
+        }
+        .burger-image {
+            width: 100%;
+            position: relative;
+        }
+        .burger image img {
+            height:700px;
+        }
+        .text-overlay {
+            font-size: 30px;
+            position: absolute;
+            font-style: inherit;
+            color: rgb(97, 96, 96);
+            bottom: 5px;
+            padding-left: 25px;
+        }
+        .tablesetting-container {
+            display: flex;
+            gap:50px;
+            padding: 100px 250px 100px;
+            border-bottom: 1px solid rgb(232, 228, 228);
+        }
+        .tablesetting-container img {
+            width:50%;
+            height:auto;
+            border-radius: 5px;
+        }
+        .description {
+            width: 50%;
+        }
+        .description > h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .description > h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .description > p {
+            font-size: 20px;
+        }
+        .description h6 {
+            font-size:20px;
+        }
+        .tablesetting-container-2 {
+            display: flex;
+            gap:50px;
+            padding: 100px 230px 100px;
+            border-bottom: 1px solid rgb(232, 228, 228);
+        }
+        .tablesetting-container-2 img {
+            width:50%;
+            height:auto;
+            border-radius: 5px;
+        }
+        .description2 {
+            width: 50%;
+        }
+        .description2  h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .description2  h6 {
+            font-size: 18px;
+        }
+        .description2  p {
+            font-size: 17px;
+            color:grey;
+            font-weight: normal;
+        }
+        .contact {
+            padding: 100px 230px 100px;
+        }
+        .text {
+            color: rgb(33, 97, 108);
+            font-weight: bold;
+            font-size: 18px;
+        }
+         .v{
+            font-size: 16px;
+            width:100%;
+            padding: 5px;
+            border: none;
+        }
+        .button {
+            border-style: none;
+            background-color: rgb(232, 229, 229);
+            color:black;
+            padding:12px 12px;
+        }
+        .footer {
+            background-color: rgb(232, 229, 229);
+            color: black;
+            width:100%;
+            text-align: center;
+            height:25px;
+            padding:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <p>Gourmet au Catering</p>
+        <div class="sub-nav">
+            <p>About</p>
+            <p>Menu</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <div class="burger-image">
+        <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="burger-image">
+        <p class="text-overlay">L e&nbsp;&nbsp;C a t e r i n g</p>
+    </div>
+    <div class="tablesetting-container">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="table-setting">
+        <div class="description">
+            <h2>A b o u t&nbsp;&nbsp;&nbsp;C a t e r i n g</h2>
+            <h4>Tradition since 1889</h4>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use&nbsp;<span style="background-color: rgb(216, 215, 215); padding: 1px 3px;">seasonal</span>&nbsp;ingredients.</p>
+            <p style="color:rgb(121, 121, 121)">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <div class="tablesetting-container-2">
+        <div class="description2">
+            <h2>O U R&nbsp;&nbsp;&nbsp;M E N U</h2><br>
+            <div>
+                <h6>B r e a d&nbsp;&nbsp;&nbsp;B a s k e t</h6>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            </div>
+            <div>
+                <h6>H o n e y&nbsp;&nbsp;&nbsp;A l m o n d&nbsp;&nbsp;&nbsp;G r a n o l a&nbsp;&nbsp;&nbsp;w i t h&nbsp;&nbsp;&nbsp;F r u i t s</h6>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            </div>
+            <div>
+                <h6>B e l g i a n&nbsp;&nbsp;&nbsp;W a f f l e</h6>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+            </div>
+            <div>
+                <h6>S c r a m  b l e d&nbsp;&nbsp;&nbsp;E g g s</h6>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            </div>
+            <div>
+                <h6> B l u e b e r r y&nbsp;&nbsp;&nbsp;P a n c a k e s</h6>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+        </div>
+        <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="table-setting">
+    </div>
+    <div class="contact">
+        <h2 style="font-size: 30px;">C o n t a c t</h2><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p class="text">Catering Service, 42nd Living St, 43043 New York, NY</p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p> <br>
+        <input type="text" name="" id="" placeholder="Name" class="v" >
+        <hr><br>
+        <input type="text" name="" id="" placeholder="How many People"  class="v">
+        <hr><br>
+        <input type="date" name="" id="" class="v" >
+        <hr><br>
+        <input type="text" name="" id="" placeholder="Messgae/ Special Requirements" class="v">
+        <hr><br>
+        <button class="button">SEND MESSAGE</button>
+    </div>
+    <div class="footer">Powered by <ins>w3.css</ins></div>
+</body>
+</html>
