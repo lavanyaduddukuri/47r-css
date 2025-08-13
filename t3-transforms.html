@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transtions</title>
+
+    <style>
+        .nav{
+            background-color: rgb(255, 255, 255);
+            color: rgb(14, 7, 10);
+        }
+        .parent{
+            display: inline-block;
+            padding: 5px;
+            position: relative;
+
+        }
+        .child{
+            display: none;
+        }
+        .h3{
+            display: inline-block;
+            
+        }
+        .parent:hover .child{
+            display: inline;
+            position: absolute;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="parent">
+            <h3>Courses</h3>
+            <div class="child">
+                <p>Python</p>
+                <p>HTML</p>
+                <p>CSS</p>
+            </div>
+        </div>
+         <div class="parent">
+            <h3>Tutorial</h3>
+            <div class="child">
+                <p>Web Development</p>
+                <p>Data Analyst</p>
+                <p>Data Scientist</p>
+            </div>
+        </div>
+         <div class="parent">
+            <h3>practice</h3>
+            <div class="child">
+                <p>Solved</p>
+                <p>Day's Problem</p>
+                <p>Problem Solving</p>
+            </div>
+        </div>
+         <div class="parent">
+            <h3>Jobs</h3>
+            <div class="child">
+                <p>Available</p>
+                <p>Expired</p>
+                <p>Applied</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
